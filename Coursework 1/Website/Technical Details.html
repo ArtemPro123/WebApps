@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>FTP/SSH - Technical Details</title>
+<link rel="stylesheet" type="text/css" href="Website CSS.css">
+</head>
+
+<body>
+
+<h1>FTP/SSH - Technical Details</h1>
+
+<hr />
+
+<nav> <!-- the nav tag (new in HTML5) is for a set of navigation links -->
+<ul>
+  <li><a href="FTP-SSH.html" >Home</a></li>
+  <li><a href="What is it.html">What is it?</a></li>
+  <li><a href="History.html">History</a></li>
+  <li><a href="Technical Details.html">Technical Details</a></li>
+</ul>
+</nav>
+
+<center><h2>Technical Details - FTP</h2></center>
+<center><div>
+<p>FTP is very diffrent form HTTP in a number of ways. 
+First, FTP is stateful, which means that a single connection between the client and the server is established and is maintained during the session.</p>
+</center></div>
+<center><div>
+<p>More Importantly there are 2 distinct types of FTP connections: contol and Data. A control connection is established when the client initiates a session. When the client wishes to transfer, it issues a command to the server requesting for data.</p>
+</center></div>
+<center><div>
+<p>Data connections can be "passive" or "active". Passive connections are used when the client needs to initiate the connection and active connections are used when the server initiates the
+connection.</p>
+</center></div>
+<br>
+<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">
+<center><img src="FTP illustration.jpg" alt="FTP Network" /></center>
+</a>
+
+<center><p>Communication and Data transfer illustration</p></center>
+
+<center><h2>Technical Details - SSH</h2></center>
+<p>The SSH protocol has an internal architecture with diffrent layers, for example:</p>
+<p>The transport layer handles initial key exchange as well as server authentication, and sets up encryption, compression and integrity verification. It exposes to the upper layer an interface for sending and receiving plaintext.</p>
+<p>The user authentication layer handles client authentication and provides a number of authentication methods.</p>
+<p>The connection layer defines the concept of channels, channel requests and global requests using SSH services. A single SSH connection can host multiple channels simultaneously, each transferring data in both directions.</p>
+
+
+
+<h2>References</h2>
+<h4>FTP</h4>
+<p>http://security.stackexchange.com/questions/23124/good-practices-to-secure-ftp-access</p>
+<p>http://www.maxumdev.com/HelpfulInfo/FTP%20Technical%20Overview.pdf</p>
+<h4>SSH</h4>
+<p>https://en.wikipedia.org/wiki/Secure_Shell</p>
+<h3>Images Used</h3>
+<p>https://en.wikipedia.org/wiki/File:Passive_FTP_Verbindung.svg</p>
+
+
+</body>
+
+</html>

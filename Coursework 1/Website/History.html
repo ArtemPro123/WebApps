@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Website CSS.css" />
+<title>FTP/SSH - History</title>
+</head>
+
+<body>
+
+<h1>FTP/SSH - History</h1>
+
+<hr />
+
+<nav> <!-- don't use the nav tag if you have just a single link -->
+<ul>
+  <li><a href="FTP-SSH.html" >Home</a></li>
+  <li><a href="What is it.html">What is it?</a></li>
+  <li><a href="History.html">History</a></li>
+  <li><a href="Technical Details.html">Technical Details</a></li>
+</ul>
+</nav>
+
+<center><h2>Overview - FTP</h2></center>
+
+<p>FTP was developed in the early 1970s by Abhay Bhushan while he was a student at MIT.</p>
+<p>At its most basic, the FTP protocol allows for the transfer of data and files between two computers over an internet connection.</p>
+<p>However it was not designed to be a secure protocol, and has many security weaknesses.</p>
+
+<h2>Security Concerns - FTP</h2>
+<center><table>
+ <tr>
+   <th>Weakness</th> <th>Implications</th> <th>Solution</th>
+ </tr>
+ <tr>
+   <td>No encryption used</td> <td>can easily access the data</td> <td>Use FTPS</td>
+ </tr>
+ <tr>
+   <td>All transmitions are in text form</td> <td>Meaning data can be read by anyone able to capture the transmition</td> <td>Une FTPS</td>
+ </tr>
+</table></center>
+
+<center><p>Making it venerable to</p></center>
+
+<center><table>
+ <tr>
+   <th>Vulnerability</th> 
+ </tr>
+ <tr>
+   <td>Brute Force attack</td> 
+ </tr>
+ <tr>
+   <td>FTP bounce attack</td>
+ </tr> 
+ <tr>
+   <td>Packet Capture</td>
+ </tr>
+ <tr>
+   <td>Spoofing attack</td>
+ </tr>
+</table></center>
+
+<center><div>
+<h2>More Security - FTP</h2>
+<p>The need for improved data security over the internet has led to basic FTP being replaced, by alternative file transfer protocols such as FTPS. FTPS is a secure version of the basic FTP protocol, and was created to stop concerns over internet security. FTPS relies on the same basic methodology of the older FTP protocol, but adds a layer of encryption as a security measure to protect data.</p>
+</div></center>
+
+<center><h2>Overview - SSH</h2></center>
+<p>The Secure Shell protocol has seen steady improvement and increased adoption since 1995. The first version of Secure Shell (SSH1) was designed to replace the non-secure UNIX. Secure Shell version 2 (SSH2), submitted as a draft in 1997. It addressed some of the more serious vulnerabilities and security issues in SSH1 and also provide an improved file transfer solution. Commercially developed applications are now widely available for Windows, UNIX, Linux, MacOS X, and other platforms. </p>
+
+<h2>References</h2>
+<h4>FTP</h4>
+<p>http://www.whoishostingthis.com/resources/ftp/</p>
+<p>https://en.wikipedia.org/wiki/File_Transfer_Protocol</p>
+<p>http://security.stackexchange.com/questions/23124/good-practices-to-secure-ftp-access</p>
+<h4>SSH</h4>
+<p>https://www.vandyke.com/solutions/ssh_overview/ssh_overview_history.html</p>
+<p>http://www.jeffgeerling.com/blog/brief-history-ssh-and-remote-access</p>
+</body>
+
+</html>
