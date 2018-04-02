@@ -1,0 +1,163 @@
+body{
+    background-color: #333;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 5px 18px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    font-family: verdana;
+    background-color: #0048ff;
+    color: white;
+    padding: 12px 18px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #008cff;
+}
+
+h1{
+    font-family: monospace;
+    color: #0048ff;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+h3{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:24%;
+    font-family: monospace;
+    color: #ff2340;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+#help1{
+    font-family: monospace;
+    color: lightblue;
+    font-size: 18px;
+    padding-left: 580px;
+    font-weight: lighter;
+}
+
+#help2{
+    font-family: monospace;
+    color: lightblue;
+    font-size: 18px;
+    padding-left: 680px;
+    font-weight: lighter;
+}
+
+#help3{
+    font-family: monospace;
+    color: lightblue;
+    font-size: 18px;
+    padding-left: 680px;
+    font-weight: lighter;
+}
+
+#help4{
+    font-family: monospace;
+    color: lightblue;
+    font-size: 18px;
+    padding-left: 610px;
+    font-weight: lighter;
+}
+#help5{
+    font-family: monospace;
+    color: lightblue;
+    font-size: 18px;
+    padding-left: 610px;
+    font-weight: lighter;
+}
+
+
+
+h5{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:36%;
+    font-family: monospace;
+    color: #ff2340;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+h6{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:48%;
+    font-family: monospace;
+    color: #ff2340;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+h7{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:57%;
+    font-family: monospace;
+    color: #ff2340;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+h8{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:63%;
+    font-family: monospace;
+    color: #ff2340;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+h4{
+    font-family: monospace;
+    font-size: 15px;
+    color: #0048ff;
+    font-weight: lighter;
+}
+
+div {
+    position: absolute;
+    left: 29%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15px;
+
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    top: 90%;
+}
+
+
