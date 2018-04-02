@@ -1,0 +1,422 @@
+body{
+    background-color: #a0a0a0;
+    height: 1300px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px #333;
+}
+
+li a:hover {
+    border-bottom: 3px solid white;
+}
+.active {
+    border-bottom: 3px solid #42a1f4;
+}
+
+
+h1{
+    position: absolute;
+    top:2%;
+    left:45%;
+    font-family: verdana;
+    color: #333;
+    font-size: 60px;
+
+}
+h2{
+    font-family: monospace;
+    color: #ad230d;
+    font-weight: lighter;
+}
+
+h3{
+    position: absolute;
+    top: 120%;
+    left: 13%;
+    font-family: verdana;
+    font-size: 25px;
+}
+
+table {
+    position: absolute;
+    top: 130%;
+    left: 12%;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+tr:hover{
+    background-color: #c4c4c4;
+    color: black;
+}
+
+th, td {
+    font-family: :monospace;
+    text-decoration-color: white;
+    text-align: left;
+
+}
+
+tr{
+    font-family: :monospace;
+    color: white;
+}
+th {
+    background-color: #565656;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+img.left {
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    width: 200px;
+    height: 500px;
+}
+
+img.right{
+    position: absolute;
+    top: 20%;
+    right: 5px;
+    width: 200px;
+    height: 500px;
+}
+
+img.basket{
+    position: absolute;
+    top:120%;
+    left:81%;
+}
+
+footer{
+    padding: 5px;
+    color: white;
+    clear: left;
+    text-align: center;
+    position: fixed;
+    top: 97%;
+}
+
+input[type=text], select {
+    width: 5%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:hover[type = submit]{
+    background-color: #c4c4c4
+}
+
+#form2{
+    position: fixed;
+    top: 35%;
+    left: 1%;
+    width: 10%;
+}
+
+#form2[type = submit]{
+    position: absolute;
+    top:120%;
+    left: 10%;
+    width: 70%;
+}
+
+
+
+div.gallery {
+    position: relative;
+    left: 11%;
+    margin: 5px;
+    float: left;
+    width: 25%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+div.buttonAcer {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 18%;
+    top: 61%;
+}
+
+.link_acer {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_acer:hover{
+    background-color: #c4c4c4;
+}
+
+div.OMEN {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 69%;
+    top: 61%;
+}
+
+.link_omen {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_omen:hover{
+    background-color: #c4c4c4;
+}
+
+div.Erazer {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 43%;
+    top: 61%;
+}
+
+.link_erazer {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_erazer:hover{
+    background-color: #c4c4c4;
+}
+
+
+
+div.Alien {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 43%;
+    top: 112%;
+}
+
+.link_alien {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_alien:hover{
+    background-color: #c4c4c4;
+}
+
+div.ASUS {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 18%;
+    top: 112%;
+
+}
+
+.link_asus {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_asus:hover{
+    background-color: #c4c4c4;
+}
+
+div.MSI {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 69%;
+    top: 112%;
+}
+
+.link_msi {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:94%;
+    height:100%;
+}
+
+.link_msi:hover{
+    background-color: #c4c4c4;
+}
+
+
+div.check {
+    
+    position: absolute;
+    left: 44%;
+    top: 155%;
+}
+
+.link_check {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:100%;
+    height:100%;
+}
+
+.link_check:hover{
+    background-color: #c4c4c4;
+}
+form.sort{
+    position: absolute;
+    top: 20%;
+    left:2%;
+    color: #333;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+img.logo{
+  position: absolute;
+  top: 1%;
+  left: 84%;
+}
+
+div.logout {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    left: 72%;
+    top: 1.5%;
+}
+
+.link_out {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    width:94%;
+    height:95%;
+}
+
+.link_out:hover{
+    background-color: red;
+    color: white;
+}

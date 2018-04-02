@@ -1,0 +1,165 @@
+body{
+    background-color: #a0a0a0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px #333;
+}
+
+li a:hover {
+    border-bottom: 3px solid white;
+}
+.active {
+    border-bottom: 3px solid #42a1f4;
+}
+
+
+h1{
+    position: absolute;
+    top:6%;
+    left:39%;
+    font-family: verdana;
+    color: #333;
+    font-size: 60px;
+
+}
+
+table {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+tr:hover{
+    background-color: #c4c4c4;
+    color: black;
+}
+
+th, td {
+    font-family: :monospace;
+    text-decoration-color: white;
+    text-align: left;
+
+}
+
+tr{
+    font-family: :monospace;
+    color: white;
+}
+th {
+    background-color: #565656;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+img.basket{
+    position: absolute;
+    top:12%;
+    left:55%;
+}
+
+footer{
+    padding: 5px;
+    color: white;
+    clear: left;
+    text-align: center;
+    position: fixed;
+    top: 97%;
+}
+
+
+
+#form2{
+    position: fixed;
+    top: 35%;
+    left: 1%;
+    width: 10%;
+}
+
+div.check {
+    
+    position: absolute;
+    left: 41%;
+    top: 60%;
+}
+
+.link_check {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width:100%;
+    height:100%;
+}
+
+.link_check:hover{
+    background-color: #c4c4c4;
+}
+form.sort{
+    position: absolute;
+    top: 20%;
+    left:2%;
+}
+img.logo{
+  position: absolute;
+  top: 1%;
+  left: 84%;
+}
+
+div.logout {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    left: 72%;
+    top: 1.5%;
+}
+
+.link_out {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    width:94%;
+    height:95%;
+}
+
+.link_out:hover{
+    background-color: red;
+    color: white;
+}

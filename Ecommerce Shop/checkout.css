@@ -1,0 +1,254 @@
+body{
+    background-color: #a0a0a0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px #333;
+}
+
+li a:hover {
+    border-bottom: 3px solid white;
+}
+.active {
+    border-bottom: 3px solid #42a1f4;
+}
+
+
+table {
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    width: 18%;
+    color: #d80000;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+div.main {
+    position: absolute;
+    left: 29%;
+    width: 40%;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 15px;
+
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 5px 18px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width:100%;
+    font-family: verdana;
+    background-color: #333;
+    color: white;
+    padding: 12px 18px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #c4c4c4;
+}
+
+h1{
+    position: absolute;
+    top:7%;
+    left:39%;
+    font-family: verdana;
+    color: #333;
+    font-size: 40px;
+
+}
+
+h3{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:33%;
+    font-family: verdana;
+    color: #ff2340;
+    font-size: 8px;
+
+
+}
+
+#help1{
+    font-family: verdana;
+    color: #333;
+    font-size: 20px;
+    padding-left: 580px;
+
+}
+
+#help2{
+    font-family: verdana;
+    color: #333;
+    font-size: 20px;
+    padding-left: 680px;
+
+}
+
+#help3{
+    font-family: verdana;
+    color: #333;
+    font-size: 20px;
+    padding-left: 680px;
+
+}
+
+#help4{
+    font-family: verdana;
+    color: #333;
+    font-size: 20px;
+    padding-left: 610px;
+
+}
+#help5{
+    font-family: verdana;
+    color: #333;
+    font-size: 20px;
+    padding-left: 610px;
+
+}
+
+
+
+h5{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:45%;
+    font-family: verdana;
+    color: #ff2340;
+    font-size: 8px;
+
+
+}
+
+h6{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:57%;
+    font-family: verdana;
+    color: #ff2340;
+    font-size: 8px;
+
+
+}
+
+h7{
+    position: absolute;
+    left:31%;
+    right:30%;
+    top:66%;
+    font-family: verdana;
+    color: #ff2340;
+    font-size: 8px;
+
+
+}
+
+h8{
+    position: absolute;
+    left:50%;
+    right:30%;
+    top:74%;
+    font-family: verdana;
+    color: #ff2340;
+    font-size: 8px;
+
+
+}
+
+h4{
+    font-family: verdana;
+    font-size: 15px;
+    color: #333;
+    font-weight: lighter;
+}
+
+
+footer{
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 91%;
+}
+header{
+    position: absolute;
+    font-family: verdana;
+    color: #333;
+    background-color: white;
+    text-align: center;
+    width: 100%;   
+}
+
+img.logo{
+  position: absolute;
+  top: 1%;
+  left: 84%;
+}
+
+div.logout {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    left: 72%;
+    top: 1.5%;
+}
+
+.link_out {
+    background-color: #333;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    width:94%;
+    height:95%;
+}
+
+.link_out:hover{
+    background-color: red;
+    color: white;
+}
