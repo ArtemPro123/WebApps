@@ -1,0 +1,78 @@
+body{
+	background-color: #333;
+}
+
+h1{
+	font-family: monospace;
+	color: #2b5dad;
+    font-size: 50px;
+	font-weight: lighter;
+	
+}
+
+.hint{
+    font-family: monospace;
+    color: #ad230d;
+    font-weight: lighter;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+tr:hover{
+	background-color: #c4c4c4;
+	color: black;
+}
+
+th, td {
+	font-family: :monospace;
+	text-decoration-color: white;
+    text-align: left;
+
+}
+
+tr{
+	font-family: :monospace;
+	color: white;
+}
+th {
+    background-color: #565656;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+img{
+	mix-blend-mode: multiply;
+}
+
+img.left {
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    width: 200px;
+    height: 500px;
+}
+
+img.right{
+	position: absolute;
+    top: 20%;
+    right: 5px;
+    width: 200px;
+    height: 500px;
+}
+
+footer{
+    padding: 5px;
+    color: white;
+    clear: left;
+    text-align: center;
+    position: fixed;
+    top:95%;    
+    left:43%;
+}
