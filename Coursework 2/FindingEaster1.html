@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Finding Easter </title>
+<link rel="stylesheet" type="text/css" href="cssfe.css" />
+</head>
+<body class = "scroll">
+<center>
+<h1 > Finding Easter... </h1>
+</center>
+<hr />
+<center>
+<form method="post" action="cgi-bin/Easter.py" >
+<br /><br />
+<label>What Format do you want the answer to be in?</label>
+<br /><br />
+<input type="radio" name="format" id="numerically" value="numerically" /> <label for="numerically">Numerically</label>
+<input type="radio" name="format" id="verbosely" value="verbosely" /> <label for="verbosely">Verbosely</label>
+<input type="radio" name="format" id="both" value="Both" /> <label for="both">Both</label><br />
+<br /><br />
+<input type="number" name="Year" min = "1583" max = "1000000000" placeholder="Year" required=”required”/>
+<br /><br />
+<input type="submit" value="Find" style="vertical-align:middle" />
+</form>
+</center>
+<img class = "main" src="eggs.png">
+</body>
+</html>
